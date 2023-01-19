@@ -1,0 +1,9 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.previewCardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto ,minmax(auto, 1fr));
+    place-content: center;
+}
